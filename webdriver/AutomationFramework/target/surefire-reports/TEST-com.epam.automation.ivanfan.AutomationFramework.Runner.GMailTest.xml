@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="1" name="com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest" time="0.634" errors="0" skipped="3">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\dev\tools\jdk1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\tng-cms-git-workspace\AutomationFramework"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\tng-cms-git-workspace\AutomationFramework"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\dev\tools\jdk1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ivan_Fan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\tng-cms-git-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2268883790699283453.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\dev\tools\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\dev\tools\apache-maven-3.0.5\bin;D:\dev\tools\jdk1.8\bin;D:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\idmu\common;C:\Program Files\TortoiseSVN\bin;D:\dev\tools\TortoiseGit\bin;D:\dev\tools\mergeTool;D:\software\ffmpeg-20150326-git-1f5d1ee-win64-static\ffmpeg-20150326-git-1f5d1ee-win64-static\bin;D:\dev\tools\gradle-2.4\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\dev\tools\adt-bundle-windows-x86-20130917\sdk\tools;D:\dev\tools\adt-bundle-windows-x86-20130917\sdk\platform-tools;D:\dev\tools\adt-bundle-windows-x86-20130917\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\bin;D:\dev\tools\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\nodejs\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\IBM\Bluemix\bin;C:\Ruby22\bin;C:\Ruby22-x64\bin;D:\dev\tools\nvm;C:\Program Files\nodejs;C:\Users\Ivan_Fan\AppData\Local\atom\bin;C:\Users\Ivan_Fan\AppData\Local\.meteor\;C:\Users\Ivan_Fan\AppData\Roaming\npm;D:\dev\tools\Microsoft VS Code\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Ivan_Fan"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Ivan_Fan"/>
+    <property name="java.class.path" value="/D:/dev/tools/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\dev\tools\jdk1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="D:\dev\tools\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\dev\tools\jdk1.8\jre\lib\resources.jar;D:\dev\tools\jdk1.8\jre\lib\rt.jar;D:\dev\tools\jdk1.8\jre\lib\sunrsasign.jar;D:\dev\tools\jdk1.8\jre\lib\jsse.jar;D:\dev\tools\jdk1.8\jre\lib\jce.jar;D:\dev\tools\jdk1.8\jre\lib\charsets.jar;D:\dev\tools\jdk1.8\jre\lib\jfr.jar;D:\dev\tools\jdk1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\tng-cms-git-workspace\AutomationFramework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest" name="startBrowser" time="0.315">
+    <failure message="The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver. The latest version can be downloaded from http://chromedriver.storage.googleapis.com/index.html
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:109)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:296)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:116)
+	at com.epam.automation.ivanfan.AutomationFramework.Pages.WebDriverSingleton.getWebDriverInstance(WebDriverSingleton.java:16)
+	at com.epam.automation.ivanfan.AutomationFramework.Pages.BasePage.&lt;init&gt;(BasePage.java:18)
+	at com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest.startBrowser(GMailTest.java:30)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@200a570f
+</system-out>
+  </testcase>
+  <testcase classname="com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest" name="addImplicitly" time="0.319">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest" name="testGMail" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.automation.ivanfan.AutomationFramework.Runner.GMailTest" name="stopBrowser" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

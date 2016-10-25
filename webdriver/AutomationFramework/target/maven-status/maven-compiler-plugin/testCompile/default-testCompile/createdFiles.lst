@@ -1,0 +1,16 @@
+com\epam\automation\ivanfan\AutomationFramework\Pages\WebDriverSingleton.class
+com\epam\automation\ivanfan\AutomationFramework\Utils\JavascriptExecutorUtils.class
+com\epam\automation\ivanfan\AutomationFramework\Objects\EmailModel.class
+com\epam\automation\ivanfan\AutomationFramework\Pages\WriteEmailPage.class
+com\epam\automation\ivanfan\AutomationFramework\Utils\ActionUtils.class
+com\epam\automation\ivanfan\AutomationFramework\Utils\Utils.class
+com\epam\automation\ivanfan\AutomationFramework\Steps\LoginStep.class
+com\epam\automation\ivanfan\AutomationFramework\Steps\WriteEmailStep.class
+com\epam\automation\ivanfan\AutomationFramework\Runner\GMailTest.class
+com\epam\automation\ivanfan\AutomationFramework\Objects\UserModel.class
+com\epam\automation\ivanfan\AutomationFramework\Pages\EmailHomePage.class
+com\epam\automation\ivanfan\AutomationFramework\Pages\EmailBoxPage.class
+com\epam\automation\ivanfan\AutomationFramework\Pages\BasePage.class
+com\epam\automation\ivanfan\AutomationFramework\Steps\EmailBoxStep.class
+com\epam\automation\ivanfan\AutomationFramework\Pages\LoginPage.class
+com\epam\automation\ivanfan\AutomationFramework\Steps\EmailHomeStep.class
