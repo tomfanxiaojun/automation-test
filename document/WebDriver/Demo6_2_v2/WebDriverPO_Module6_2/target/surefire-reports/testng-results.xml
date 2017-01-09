@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="136447" started-at="2016-03-17T02:52:50Z" finished-at="2016-03-17T02:55:07Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="136447" started-at="2016-03-17T02:52:50Z" finished-at="2016-03-17T02:55:07Z">
+      <class name="com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest@12843fce]" name="startBrowser" is-config="true" duration-ms="6075" started-at="2016-03-17T10:53:17Z" description="Start browser" finished-at="2016-03-17T10:53:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest@12843fce]" is-config="true" status="PASS" duration-ms="5352" finished-at="2016-03-17T10:53:29Z" started-at="2016-03-17T10:53:23Z" depends-on-methods="com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest.startBrowser" description="Add implicit wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest@12843fce]" name="loginToGithub" duration-ms="9335" started-at="2016-03-17T10:53:29Z" description="Login to Github account" finished-at="2016-03-17T10:53:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest@12843fce]" name="stopBrowser" is-config="true" duration-ms="600" started-at="2016-03-17T10:53:38Z" description="Stop Browser" finished-at="2016-03-17T10:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo2.additional.custom_page_object.GitHubTest -->
+      <class name="com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest@3dd3bcd]" name="startBrowser" is-config="true" duration-ms="5936" started-at="2016-03-17T10:53:39Z" description="Start browser" finished-at="2016-03-17T10:53:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest@3dd3bcd]" is-config="true" status="PASS" duration-ms="7138" finished-at="2016-03-17T10:53:52Z" started-at="2016-03-17T10:53:44Z" depends-on-methods="com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest.startBrowser" description="Add implicit wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest@3dd3bcd]" name="loginToGithub" duration-ms="6784" started-at="2016-03-17T10:53:52Z" description="Login to Github account" finished-at="2016-03-17T10:53:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest@3dd3bcd]" name="stopBrowser" is-config="true" duration-ms="597" started-at="2016-03-17T10:53:58Z" description="Stop Browser" finished-at="2016-03-17T10:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo2.additional.custom_page_object_with_abstract_page.GitHubTest -->
+      <class name="com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest@97e1986]" name="startBrowser" is-config="true" duration-ms="5981" started-at="2016-03-17T10:53:59Z" description="Start browser" finished-at="2016-03-17T10:54:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest@97e1986]" is-config="true" status="PASS" duration-ms="5426" finished-at="2016-03-17T10:54:10Z" started-at="2016-03-17T10:54:05Z" depends-on-methods="com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest@97e1986]" name="loginToGithub" duration-ms="10460" started-at="2016-03-17T10:54:10Z" description="Login to Github account" finished-at="2016-03-17T10:54:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest@97e1986]" name="stopBrowser" is-config="true" duration-ms="715" started-at="2016-03-17T10:54:21Z" description="Stop Browser" finished-at="2016-03-17T10:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo2.additional.native_page_object_constructor_modified.GitHubTest -->
+      <class name="com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest@153f5a29]" name="startBrowser" is-config="true" duration-ms="6008" started-at="2016-03-17T10:54:48Z" description="Start browser" finished-at="2016-03-17T10:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest@153f5a29]" is-config="true" status="PASS" duration-ms="5097" finished-at="2016-03-17T10:54:59Z" started-at="2016-03-17T10:54:54Z" depends-on-methods="com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest@153f5a29]" name="loginToGithub" duration-ms="7252" started-at="2016-03-17T10:54:59Z" description="Login to Github account" finished-at="2016-03-17T10:55:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest@153f5a29]" name="stopBrowser" is-config="true" duration-ms="635" started-at="2016-03-17T10:55:06Z" description="Stop Browser" finished-at="2016-03-17T10:55:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo2.lection_demo_native_page_object.GitHubTest -->
+      <class name="com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest@26f67b76]" name="startBrowser" is-config="true" duration-ms="6678" started-at="2016-03-17T10:54:22Z" description="Start browser" finished-at="2016-03-17T10:54:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest@26f67b76]" is-config="true" status="PASS" duration-ms="12472" finished-at="2016-03-17T10:54:41Z" started-at="2016-03-17T10:54:28Z" depends-on-methods="com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest@26f67b76]" name="loginToGithub" duration-ms="6565" started-at="2016-03-17T10:54:41Z" description="Login to Github account" finished-at="2016-03-17T10:54:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest@26f67b76]" name="stopBrowser" is-config="true" duration-ms="567" started-at="2016-03-17T10:54:47Z" description="Stop Browser" finished-at="2016-03-17T10:54:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo2.additional.native_page_object_with_abstract_page.GitHubTest -->
+      <class name="com.epam.cnta.webdriver.demo1.GitHubTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo1.GitHubTest@13c78c0b]" name="startBrowser" is-config="true" duration-ms="9668" started-at="2016-03-17T10:52:50Z" description="Start browser" finished-at="2016-03-17T10:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo1.GitHubTest@13c78c0b]" is-config="true" status="PASS" duration-ms="5041" finished-at="2016-03-17T10:53:05Z" started-at="2016-03-17T10:53:00Z" depends-on-methods="com.epam.cnta.webdriver.demo1.GitHubTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo1.GitHubTest@13c78c0b]" name="loginToGithub" duration-ms="10952" started-at="2016-03-17T10:53:05Z" description="Login to Github account" finished-at="2016-03-17T10:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo1.GitHubTest@13c78c0b]" name="stopBrowser" is-config="true" duration-ms="1094" started-at="2016-03-17T10:53:16Z" description="Stop Browser" finished-at="2016-03-17T10:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo1.GitHubTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

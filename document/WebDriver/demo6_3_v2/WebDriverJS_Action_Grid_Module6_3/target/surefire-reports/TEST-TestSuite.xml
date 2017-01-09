@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="10" failures="2" name="TestSuite" time="21.088" errors="0" skipped="8">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="D:\dev\tools\jdk1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\workdocument\Automation\Project\WebDriver\demo6_3_v2\WebDriverJS_Action_Grid_Module6_3"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\workdocument\Automation\Project\WebDriver\demo6_3_v2\WebDriverJS_Action_Grid_Module6_3"/>
+    <property name="java.runtime.version" value="1.8.0_45-b15"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="D:\dev\tools\jdk1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Ivan_Fan\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="D:\tng-cms-git-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf413476480099124195.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="D:\dev\tools\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;D:\dev\tools\apache-maven-3.0.5\bin;D:\dev\tools\jdk1.8\bin;D:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\idmu\common;C:\Program Files\TortoiseSVN\bin;D:\dev\tools\TortoiseGit\bin;D:\dev\tools\mergeTool;D:\software\ffmpeg-20150326-git-1f5d1ee-win64-static\ffmpeg-20150326-git-1f5d1ee-win64-static\bin;D:\dev\tools\gradle-2.4\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;D:\dev\tools\adt-bundle-windows-x86-20130917\sdk\tools;D:\dev\tools\adt-bundle-windows-x86-20130917\sdk\platform-tools;D:\dev\tools\adt-bundle-windows-x86-20130917\eclipse\plugins\org.apache.ant_1.8.3.v201301120609\bin;C:\Program Files (x86)\Brackets\command;D:\dev\tools\nvm;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Ruby22-x64\bin;D:\dev\tools\nvm;C:\Program Files\nodejs;C:\Users\Ivan_Fan\AppData\Roaming\npm;C:\Users\Ivan_Fan\AppData\Local\atom\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Ivan_Fan"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Ivan_Fan"/>
+    <property name="java.class.path" value="/D:/dev/tools/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.1.20150625-2337/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="D:\dev\tools\jdk1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="D:\dev\tools\jdk1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\dev\tools\jdk1.8\jre\lib\resources.jar;D:\dev\tools\jdk1.8\jre\lib\rt.jar;D:\dev\tools\jdk1.8\jre\lib\sunrsasign.jar;D:\dev\tools\jdk1.8\jre\lib\jsse.jar;D:\dev\tools\jdk1.8\jre\lib\jce.jar;D:\dev\tools\jdk1.8\jre\lib\charsets.jar;D:\dev\tools\jdk1.8\jre\lib\jfr.jar;D:\dev\tools\jdk1.8\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\workdocument\Automation\Project\WebDriver\demo6_3_v2\WebDriverJS_Action_Grid_Module6_3\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="setUp" time="17.033">
+    <failure message="this.getChromeWindowFromDocumentWindow(...) is undefined
+Command duration or timeout: 10.21 seconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 44c819ff-12a3-49fe-bafc-9803a9977f5c" type="org.openqa.selenium.WebDriverException">org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Command duration or timeout: 10.21 seconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 44c819ff-12a3-49fe-bafc-9803a9977f5c
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest.setUp(ActionsDemoTest.java:34)
+Caused by: org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.maximizeWindow(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11093)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@16f65612
+</system-out>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="draggable" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest" name="startBrowser" time="2.025">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.setDriver(GitHubRemoteDriverTest.java:44)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.getDriver(GitHubRemoteDriverTest.java:33)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.startBrowser(GitHubRemoteDriverTest.java:53)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 53 more
+</failure>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest" name="addImplicitly" time="2.025">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest" name="loginToGithub" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest" name="stopBrowser" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="droppable" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="selectMultiple" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="contextClick" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest" name="tearDown" time="0.002">
+    <skipped/>
+  </testcase>
+</testsuite>

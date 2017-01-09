@@ -1,0 +1,4 @@
+This information will be read/written as lines.
+line 1
+line 2
+line 3

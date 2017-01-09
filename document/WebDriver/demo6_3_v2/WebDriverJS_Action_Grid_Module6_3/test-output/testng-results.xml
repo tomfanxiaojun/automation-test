@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37308" started-at="2016-02-29T11:49:46Z" finished-at="2016-02-29T11:50:23Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37308" started-at="2016-02-29T11:49:46Z" finished-at="2016-02-29T11:50:23Z">
+      <class name="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest@7f63425a]" name="startBrowser" is-config="true" duration-ms="13258" started-at="2016-02-29T14:49:46Z" description="Start browser" finished-at="2016-02-29T14:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest@7f63425a]" is-config="true" status="PASS" duration-ms="485" finished-at="2016-02-29T14:50:00Z" started-at="2016-02-29T14:49:59Z" depends-on-methods="com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.startBrowser" description="Add implicit wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="loginToGithub()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest@7f63425a]" name="loginToGithub" duration-ms="22170" started-at="2016-02-29T14:50:00Z" description="Login to Github account" finished-at="2016-02-29T14:50:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToGithub -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest@7f63425a]" name="stopBrowser" is-config="true" duration-ms="1341" started-at="2016-02-29T14:50:22Z" description="Stop Browser" finished-at="2016-02-29T14:50:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

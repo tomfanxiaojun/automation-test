@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.epam.cnta.webdriver.ivanfan.GmailTest" duration-ms="47231" started-at="2016-03-31T02:44:21Z" finished-at="2016-03-31T02:45:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="47231" started-at="2016-03-31T02:44:21Z" finished-at="2016-03-31T02:45:08Z">
+      <class name="com.epam.cnta.webdriver.ivanfan.GmailTest">
+        <test-method status="PASS" signature="startBrowser()[pri:0, instance:com.epam.cnta.webdriver.ivanfan.GmailTest@3cbbc1e0]" name="startBrowser" is-config="true" duration-ms="6504" started-at="2016-03-31T10:44:21Z" description="Start browser" finished-at="2016-03-31T10:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowser -->
+        <test-method name="addImplicitly" signature="addImplicitly()[pri:0, instance:com.epam.cnta.webdriver.ivanfan.GmailTest@3cbbc1e0]" is-config="true" status="PASS" duration-ms="907" finished-at="2016-03-31T10:44:29Z" started-at="2016-03-31T10:44:28Z" depends-on-methods="com.epam.cnta.webdriver.ivanfan.GmailTest.startBrowser" description="Add implicite wait and maximize window">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addImplicitly -->
+        <test-method status="PASS" signature="testGMail()[pri:0, instance:com.epam.cnta.webdriver.ivanfan.GmailTest@3cbbc1e0]" name="testGMail" duration-ms="38114" started-at="2016-03-31T10:44:29Z" description="Test Gemail " finished-at="2016-03-31T10:45:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGMail -->
+        <test-method status="PASS" signature="stopBrowser()[pri:0, instance:com.epam.cnta.webdriver.ivanfan.GmailTest@3cbbc1e0]" name="stopBrowser" is-config="true" duration-ms="1696" started-at="2016-03-31T10:45:07Z" description="Stop Browser" finished-at="2016-03-31T10:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- com.epam.cnta.webdriver.ivanfan.GmailTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.epam.cnta.webdriver.ivanfan.GmailTest -->
+</testng-results>

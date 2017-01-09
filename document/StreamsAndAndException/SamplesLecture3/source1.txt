@@ -1,0 +1,1 @@
+This information will be read/written as bytes.

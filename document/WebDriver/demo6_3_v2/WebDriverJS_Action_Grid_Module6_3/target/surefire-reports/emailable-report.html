@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Command line suite</th></tr><tr><td><a href="#t0">Command line test</a></td><td class="num">0</td><td class="num attn">5</td><td class="num">0</td><td class="num">18,830</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Command line suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Command line test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest</td><td><a href="#m0">setUp</a></td><td rowspan="1">1458203909721</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest</td><td><a href="#m1">startBrowser</a></td><td rowspan="1">1458203926521</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest</td><td><a href="#m2">tearDown</a></td><td rowspan="1">1458203928548</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="2">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest</td><td><a href="#m3">addImplicitly</a></td><td rowspan="1">1458203928546</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m4">stopBrowser</a></td><td rowspan="1">1458203928547</td><td rowspan="1">0</td></tr><tr><th colspan="4">Command line test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="4">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest</td><td><a href="#m5">contextClick</a></td><td rowspan="1">1458203928548</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">draggable</a></td><td rowspan="1">1458203926520</td><td rowspan="1">1</td></tr><tr class="skippedeven"><td><a href="#m7">droppable</a></td><td rowspan="1">1458203928548</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">selectMultiple</a></td><td rowspan="1">1458203928548</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest</td><td><a href="#m9">loginToGithub</a></td><td rowspan="1">1458203928547</td><td rowspan="1">0</td></tr></tbody></table><h2>Command line test</h2><h3 id="m0">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#setUp</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Command duration or timeout: 10.21 seconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 44c819ff-12a3-49fe-bafc-9803a9977f5c
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:945)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest.setUp(ActionsDemoTest.java:34)
+Caused by: org.openqa.selenium.WebDriverException: this.getChromeWindowFromDocumentWindow(...) is undefined
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.maximizeWindow(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11093)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12614)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Ivan_Fan/AppData/Local/Temp/anonymous5092985634840962254webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:623)
+... Removed 38 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest#startBrowser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;EPCNSZXW0095&apos;, ip: &apos;10.22.72.51&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.setDriver(GitHubRemoteDriverTest.java:44)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.getDriver(GitHubRemoteDriverTest.java:33)
+	at com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest.startBrowser(GitHubRemoteDriverTest.java:53)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to localhost:4444 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 40 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 53 more
+... Removed 34 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#tearDown</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest#addImplicitly</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest#stopBrowser</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#contextClick</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ActionsDemoTest.contextClick()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest@61dc03ce] depends on not successfully finished methods
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#draggable</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#droppable</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ActionsDemoTest.droppable()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest@61dc03ce] depends on not successfully finished methods
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest#selectMultiple</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method ActionsDemoTest.selectMultiple()[pri:0, instance:com.epam.cnta.webdriver.demo3.custom_page_object.tests.ActionsDemoTest@61dc03ce] depends on not successfully finished methods
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.epam.cnta.webdriver.demo3.custom_page_object.tests.GitHubRemoteDriverTest#loginToGithub</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

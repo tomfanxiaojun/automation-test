@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.epam.cnta.webdriver.ivanfan.GmailTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.epam.cnta.webdriver.ivanfan.GmailTest">
+        <methods>
+          <include name="addImplicitly"/>
+          <include name="testGMail"/>
+          <include name="startBrowser"/>
+          <include name="stopBrowser"/>
+        </methods>
+      </class> <!-- com.epam.cnta.webdriver.ivanfan.GmailTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.epam.cnta.webdriver.ivanfan.GmailTest] -->
